@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 100px ; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    position: fixed;
+    border: 2px solid black;
+    z-index: 1;
+    
+}
+
+.aroma {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeshop {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchvamua {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divchuahomeshop {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition-property: border-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.buynow:hover {
+    border-color: blue;
+}
+
+.iconcanharoma {
+    color: blue;
+    font-size: x-large;
+}
+
+.iconsearchvamua {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cacchuhomeshop {
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    color: black;
+}
+
+.cacchuhomeshop:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+li {
+    list-style-type: none   ;
+    padding: 10px;
+    color: rgb(67, 66, 66);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.hovershop {
+    position: absolute ;
+    display: none ;
+    background-color: white;
+    width: 150px ;
+    min-height: 50px;
+    top: 100px ;
+    left: 500px ;
+}
+
+.shop:hover .hovershop {
+    display: block ;
+}
+
+.hoverblog {
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 150px;
+    min-height: 50px ;
+    top: 100px;
+    left: 600px;
+}
+
+.blog:hover .hoverblog {
+    display: block;
+}
+
+.hoveraccount {
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    min-height: 50px;
+    top: 100px;
+    left: 690px;
+    display: none;
+    /* border: 1px solid black; */
+}
+
+.account:hover .hoveraccount {
+    display: block;
+}
+
+.khoichuadieuhuong {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dieuhuong {
+    list-style-type: none   ;
+    margin-left: 5px;
+    color: rgb(67, 66, 66);
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+}
+
+.khoichuadieuhuong:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.khoichuadieuhuong:hover  .dieuhuong {
+    color: white;
+}

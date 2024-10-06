@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.container {
+    padding-top: 100px ; 
+    width: 100%;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    position: fixed;
+    border: 2px solid black;
+    z-index: 1;
+    
+}
+
+.aroma {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeshop {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchvamua {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divchuahomeshop {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition-property: border-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.buynow:hover {
+    border-color: blue;
+}
+
+.iconcanharoma {
+    color: blue;
+    font-size: x-large;
+}
+
+.iconsearchvamua {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cacchuhomeshop {
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    color: black;
+}
+
+.cacchuhomeshop:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+li {
+    list-style-type: none   ;
+    padding: 10px;
+    color: rgb(67, 66, 66);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.hovershop {
+    position: absolute ;
+    display: none ;
+    background-color: white;
+    width: 150px ;
+    min-height: 50px;
+    top: 100px ;
+    left: 500px ;
+}
+
+.shop:hover .hovershop {
+    display: block ;
+}
+
+.hoverblog {
+    position: absolute;
+    background-color: white;
+    display: none;
+    width: 150px;
+    min-height: 50px ;
+    top: 100px;
+    left: 600px;
+}
+
+.blog:hover .hoverblog {
+    display: block;
+}
+
+.hoveraccount {
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    min-height: 50px;
+    top: 100px;
+    left: 690px;
+    display: none;
+    /* border: 1px solid black; */
+}
+
+.account:hover .hoveraccount {
+    display: block;
+}
+
+.khoichuadieuhuong {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dieuhuong {
+    list-style-type: none   ;
+    margin-left: 5px;
+    color: rgb(67, 66, 66);
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+}
+
+.khoichuadieuhuong:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.khoichuadieuhuong:hover  .dieuhuong {
+    color: white;
+}
+
+
+.shopsingle {
+    width: 100%;
+    height: 450px ;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chuhomeshopsingle {
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.sanpham1 {
+    width: 90%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thongtinsanpham {
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+
+.giatien {
+    margin-top: 15px;
+    color: blue;
+}
+
+.category {
+    margin-top: 15px;
+}
+
+.availibility {
+    margin-top: 15px;
+}
+
+.motasanpham {
+    margin-top: 50px;
+}
+
+.chumota {
+    font-size: 20px;
+}
+
+.quantity {
+    width: 320px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 45px;
+}
+
+.ghisoluong {
+    width: 60px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addtocart {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: blue;
+}
+
+.chuaddtocart {
+    color: white;
+}
+
+.favourite {
+    width: 70px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.okimcuong {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(237, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otraitim {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(237, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.khoidanhgia {
+    width: 90%;
+    height: 1000px;
+    border: 2px solid black;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.khoidieuhuong {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(223, 223, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.khoinhungthedieuhuong {
+    height: 50px;
+    width: 55%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.dieuhuong {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.danhgia {
+    width: 470px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.addreview {
+    width: 370px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+.review {
+    width: 470px;
+    height: 700px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: -130px;
+}
+
+.chupopular {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.chutopproducts {
+    margin-left: 70px;
+}
+
+.khoitopproducts {
+    width: 90%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-left: 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.nhom3topproduct {
+   width: 23%;
+   height: 300px;
+   /* border: 1px solid black;  */
+}
+
+.topproduct {
+    width: 100%;
+    height: 33%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thongtintopproduct {
+    width: 70%;
+    height: 40%;
+    /* border: 1px solid black; */
+    
+}
+
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(27, 27, 100);
+    margin-top: 200px;
+    display: flex;
+}
+
+.ourmission {
+    width: 280px;
+    height: 240px;
+    /* border: 2px solid white; */
+    margin-left: 75px;   
+    margin-top: 200px; 
+}
+
+.chuourmission {
+    color: white;
+    font-size: 40px;
+}
+
+.quicklinks {
+    width: 100px;
+    height: 260px;
+    /* border: 2px solid white; */
+    margin-left: 110px;
+    margin-top: 200px;
+}
+
+.gallery {
+    width: 140px;
+    height: 290px;
+    /* border: 2px solid white; */
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.contactus {
+    width: 210px;
+    height: 270px;
+    /* border: 2px solid white; */
+    margin-left: 120px;
+    margin-top: 200px;
+}
+
+.chunhookhoicuoitrang {
+    color: gray;
+    margin-top: 25px;
+}
+
+.chumautrang {
+    color: white;
+}
+
+.cachit {
+    margin-top: 20px;
+}
+
+.sauanhcuoitrang {
+    width: 65px;
+    height: 60px;
+}
+
+.khoichuaanhcuoitrang1 {
+    width: 140px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.khoichuaanhcuoitrang2 {
+    width: 140px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.khoichuaanhcuoitrang3 {
+    width: 140px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.headoffice {
+    /* border: 2px solid white; */
+    width: 210px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chutrongheadoffice {
+    /* border: 1px solid white; */
+    width: 180px;
+    height: 40px;
+}
+
+.fa-telegram {
+    font-size: 25px;
+    color: white;
+}
+
+.chumauxam {
+    color: gray;
+}
+
+.phonenumber {
+    width: 210px;
+    height: 60px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fa-phone {
+    font-size: 25px;
+    color: white;
+}
+
+.cacchuphonenumber {
+    width: 175px;
+    height: 60px;
+    /* border: 1px solid white; */
+}
+
+.email {
+    width: 210px;
+    height: 60px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-envelope {
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
